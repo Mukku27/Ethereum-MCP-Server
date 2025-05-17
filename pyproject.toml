@@ -1,0 +1,12 @@
+[project]
+name = "eth-py-mcp-server"
+version = "0.1.0"
+description = "A MCP server for the Ethereum blockchain using Python, offering functions to get ETH balance, current Ethereum price in USD, current Ethereum network gas price, latest block information, transaction details, estimate transaction fee, and all transaction history for an account."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.9.0",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "web3>=7.11.1",
+]
